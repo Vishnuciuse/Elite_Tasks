@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".task3.MainActivity4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Installation steps"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_background"
+        android:padding="5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <ImageView
+            android:id="@+id/goBackIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/round_arrow_back"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout2"
+        android:layout_width="245dp"
+        android:layout_height="30dp"
+        android:layout_marginHorizontal="30dp"
+        app:layout_constraintBottom_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/relativeLayout"
+        app:layout_constraintStart_toEndOf="@+id/relativeLayout2"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/stepOneIndicatorBackCL"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/stepThreeIndicatorBackCL"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/round_background"
+            android:backgroundTint="@color/lightBlue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/stepTwoIndicatorBackCL"
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@color/lightBlue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/stepThreeIndicatorProgressCL"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="-15dp"
+            android:background="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/resizableCL"
+            app:layout_constraintStart_toEndOf="@+id/resizableCL"
+            app:layout_constraintTop_toTopOf="@+id/resizableCL" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/resizableCL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL">
+
+            <View
+                android:id="@+id/stepOneIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:background="@color/blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepTwoIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepOneIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepThreeIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="25dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@id/stepTwoIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepFourIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepThreeIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepFiveIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepFourIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepSixIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepFiveIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepSevenIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepSixIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepEightIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepSevenIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepNineIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepEightIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepTenIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepNineIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/stepElevenIndicatorV"
+                android:layout_width="20dp"
+                android:layout_height="0dp"
+                android:background="@color/blue"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/stepTenIndicatorV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/dotIndicatorOne"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginStart="13dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@id/dotIndicatorTwo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorTwo"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorThree"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorOne"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorThree"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorFour"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorTwo"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorFour"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorFive"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorThree"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorFive"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorSix"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorFour"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorSix"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorSeven"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorFive"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorSeven"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorEight"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorSix"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorEight"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorNine"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorSeven"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorNine"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:layout_marginEnd="0dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/dotIndicatorTen"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorEight"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:tint="@color/dotNotPresent" />
+
+        <ImageView
+            android:id="@+id/dotIndicatorTen"
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:src="@drawable/round_background"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintEnd_toStartOf="@+id/spacer"
+            app:layout_constraintStart_toEndOf="@+id/dotIndicatorNine"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_goneMarginEnd="13dp"
+            app:tint="@color/dotNotPresent" />
+
+        <View
+            android:id="@+id/spacer"
+            android:layout_width="13dp"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/stepTwoIndicatorBackCL"
+            app:layout_constraintTop_toTopOf="@+id/stepTwoIndicatorBackCL"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/round_background"
+        android:padding="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/relativeLayout2">
+
+        <ImageView
+            android:id="@+id/goNextIV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/round_arrow_forward"
+            app:tint="@color/white" />
+
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:id="@+id/fragmentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
