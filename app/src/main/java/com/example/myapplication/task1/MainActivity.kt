@@ -7,6 +7,7 @@ import com.google.gson.Gson
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
+import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.media.MediaScannerConnection
 import android.net.Uri
@@ -37,6 +38,7 @@ import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
+import org.bouncycastle.asn1.iana.IANAObjectIdentifiers.directory
 import java.io.BufferedReader
 import java.io.File
 import java.io.FileOutputStream
@@ -79,7 +81,8 @@ class MainActivity : AppCompatActivity() {
             bMImageView.visibility = View.VISIBLE
             recyclerView.visibility = View.GONE
             bMImageView.setImageBitmap(recyclerViewBitmap)
-            storeToPDF(recyclerViewBitmap)
+            val imagePath = saveBitmapToInternalStorage(this,recyclerViewBitmap,)
+            storeToPDF(imagePath)
 
         }
 
@@ -133,6 +136,41 @@ class MainActivity : AppCompatActivity() {
         child.draw(canvas)
 
         return bitmap
+    }
+
+    fun saveBitmapToInternalStorage(context: Context, bitmap: Bitmap,): String {
+        val fileName = "my_image"
+        val dir = context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)
+        if (dir != null && !dir.exists()) {
+            dir.mkdirs() // Create the directory if it doesn't exist
+        }
+        val file = File(dir, "$fileName.png")
+        var fileOutputStream: FileOutputStream? = null
+
+        try {
+            fileOutputStream = FileOutputStream(file)
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fileOutputStream)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        } finally {
+            try {
+                fileOutputStream?.close()
+            } catch (e: IOException) {
+                e.printStackTrace()
+            }
+        }
+//        openImageFile(this,file.absolutePath)
+        return file.absolutePath
+    }
+
+    fun openImageFile(context: Context, filePath: String) {
+        Log.d("check", "check the image file path $filePath")
+        val file = File(filePath)
+        val uri: Uri = FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", file)
+        val intent = Intent(Intent.ACTION_VIEW)
+        intent.setDataAndType(uri, "image/*")
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        context.startActivity(intent)
     }
 
     private fun storeToPDF(recyclerViewBitmap: Bitmap) {
@@ -208,11 +246,68 @@ class MainActivity : AppCompatActivity() {
         }
         }
 
+    private fun storeToPDF(imagePath:String) {
+        CoroutineScope(Dispatchers.IO).launch {
+            val dir = getExternalFilesDir(Environment.DIRECTORY_DOCUMENTS)
+            if (dir != null && !dir.exists()) {
+                dir.mkdirs() // Create the directory if it doesn't exist
+            }
+            val filePath = File(dir, "example.pdf").absolutePath
+
+            val document = Document(PageSize.A4)
+            val writer = PdfWriter.getInstance(document, FileOutputStream(filePath))
+            document.open()
+
+            // Create a table with one column
+            val table = PdfPTable(1)
+            table.widthPercentage = 100f
+
+            // Add Header
+            val header = Paragraph("Timmy Jones", Font(Font.FontFamily.HELVETICA, 18f, Font.BOLD))
+            header.alignment = Element.ALIGN_LEFT
+            table.addCell(createCell(header))
+
+            // Add Subheader
+            val subHeader = Paragraph(
+                "Installation:ONT & RG",
+                Font(Font.FontFamily.HELVETICA, 14f, Font.NORMAL)
+            )
+            subHeader.alignment = Element.ALIGN_LEFT
+            table.addCell(createCell(subHeader))
+
+            // Add Description
+            val description =
+                Paragraph("SERVICE INFORMATION", Font(Font.FontFamily.HELVETICA, 12f))
+            description.alignment = Element.ALIGN_LEFT
+            val descriptionCell = createCell(description, BaseColor(255, 0, 0, 7))
+            descriptionCell.border = PdfPCell.BOTTOM
+            descriptionCell.paddingBottom = 10f
+            descriptionCell.borderColorBottom = BaseColor.GREEN
+            descriptionCell.borderWidth = 1f
+            table.addCell(descriptionCell)
+
+            val image = Image.getInstance(imagePath)
+            image.scaleToFit(500f, 500f) // Scale the image to fit the page
+            document.add(image)
+            document.add(table)
+            document.close()
+
+            MediaScannerConnection.scanFile(this@MainActivity, arrayOf(filePath), arrayOf("application/pdf"), null)
+
+            withContext(Dispatchers.Main) {
+                Toast.makeText(this@MainActivity, "PDF created at: $filePath", Toast.LENGTH_LONG)
+                    .show()
+            }
+            openPdf(filePath)
+
+        }
+    }
+
     private fun openPdf(filePath: String) {
         val pdfFile = File(filePath)
         val pdfUri: Uri = FileProvider.getUriForFile(
             this,
-            "$packageName.provider",
+            "$packageName.fileprovider",
             pdfFile
         )
         val intent = Intent(Intent.ACTION_VIEW).apply {
