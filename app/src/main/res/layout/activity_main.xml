@@ -8,15 +8,38 @@
     android:layout_height="match_parent"
     tools:context=".task1.MainActivity">
 
+    <TextView
+        android:id="@+id/checkTV1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:text="text content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mainRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/checkTV1"
         tools:itemCount="1"
         tools:listitem="@layout/router_layout" />
 
+    <Button
+        android:id="@+id/showBn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bitmapImageView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 <!--    <TextView-->
 <!--        android:id="@+id/respTV"-->

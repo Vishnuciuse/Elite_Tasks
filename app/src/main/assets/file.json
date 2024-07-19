@@ -176,6 +176,78 @@
         "ifType":"wifi",
         "fingerprint":{"model":"",
           "vendor":""}}]
+    },
+
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
+        "name":"Google Pixel 6a",
+        "type":0,
+        "subType":0,
+        "ipAddress":"192.168.3.212",
+        "ifType":"wifi",
+        "fingerprint":{"model":"",
+          "vendor":""}}]
+    },
+
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
+        "name":"Google Pixel 6a",
+        "type":0,
+        "subType":0,
+        "ipAddress":"192.168.3.212",
+        "ifType":"wifi",
+        "fingerprint":{"model":"",
+          "vendor":""}}]
+    },
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
+        "name":"Google Pixel 6a",
+        "type":0,
+        "subType":0,
+        "ipAddress":"192.168.3.212",
+        "ifType":"wifi",
+        "fingerprint":{"model":"",
+          "vendor":""}}]
     }
+
   ]
 }
