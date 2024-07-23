@@ -98,14 +98,20 @@
         "routerMac": "04:bc:9f:21:d2:26",
         "interface": "eth"
       },
-      "devices": [{"deviceId":"f24571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
+      "devices": [
+        {
+          "deviceId": "f24571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
     },
     {
       "routerId": "c6321b7a-6458-4c5c-89cb-9711854b377a",
@@ -121,14 +127,20 @@
         "routerMac": "f8:85:f9:7c:22:90",
         "interface": "eth"
       },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
     },
     {
       "routerId": "e6321b7a-6458-4c5c-89cb-9711854b377a",
@@ -144,86 +156,20 @@
         "routerMac": "f8:85:f9:7c:22:90",
         "interface": "eth"
       },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
-    },
-
-    {
-      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
-      "routerName": "nightwing's  SAT 3",
-      "macAddr": "f8:85:f9:7c:22:90",
-      "type": "AP",
-      "status": "GOOD",
-      "fsanSerialNumber": "CXNK01027614",
-      "modelNumber": "GS4227",
-      "isp": "Calix Networks",
-      "connectedTo": {
-        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
-        "routerMac": "f8:85:f9:7c:22:90",
-        "interface": "eth"
-      },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
-    },
-
-    {
-      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
-      "routerName": "nightwing's  SAT 3",
-      "macAddr": "f8:85:f9:7c:22:90",
-      "type": "AP",
-      "status": "GOOD",
-      "fsanSerialNumber": "CXNK01027614",
-      "modelNumber": "GS4227",
-      "isp": "Calix Networks",
-      "connectedTo": {
-        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
-        "routerMac": "f8:85:f9:7c:22:90",
-        "interface": "eth"
-      },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
-    },
-
-    {
-      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
-      "routerName": "nightwing's  SAT 3",
-      "macAddr": "f8:85:f9:7c:22:90",
-      "type": "AP",
-      "status": "GOOD",
-      "fsanSerialNumber": "CXNK01027614",
-      "modelNumber": "GS4227",
-      "isp": "Calix Networks",
-      "connectedTo": {
-        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
-        "routerMac": "f8:85:f9:7c:22:90",
-        "interface": "eth"
-      },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
     },
     {
       "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
@@ -239,15 +185,334 @@
         "routerMac": "f8:85:f9:7c:22:90",
         "interface": "eth"
       },
-      "devices": [{"deviceId":"455571-2ade-4e1b-85a4-601cd281c05b",
-        "name":"Google Pixel 6a",
-        "type":0,
-        "subType":0,
-        "ipAddress":"192.168.3.212",
-        "ifType":"wifi",
-        "fingerprint":{"model":"",
-          "vendor":""}}]
-    }
-
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
+    },
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
+    },
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
+    },
+    {
+      "routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+      "routerName": "nightwing's  SAT 3",
+      "macAddr": "f8:85:f9:7c:22:90",
+      "type": "AP",
+      "status": "GOOD",
+      "fsanSerialNumber": "CXNK01027614",
+      "modelNumber": "GS4227",
+      "isp": "Calix Networks",
+      "connectedTo": {
+        "routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+        "routerMac": "f8:85:f9:7c:22:90",
+        "interface": "eth"
+      },
+      "devices": [
+        {
+          "deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+          "name": "Google Pixel 6a",
+          "type": 0,
+          "subType": 0,
+          "ipAddress": "192.168.3.212",
+          "ifType": "wifi",
+          "fingerprint": {
+            "model": "",
+            "vendor": ""
+          }
+        }
+      ]
+    },
+    {
+      "deviceId": "ec93729a-3dd6-40ad-8355-bbf53ff05fe0",
+      "name": "nanw-ontuser183",
+      "type": 2,
+      "subType": null,
+      "ipAddress": "192.168.1.202",
+      "ifType": "eth",
+      "fingerprint": {
+        "model": "Windows",
+        "vendor": "Unknown"
+      }
+    },
+    {
+      "deviceId": "f7de8a43-c695-4bf5-bf45-808c365b4058",
+      "name": "nanw-ontuser185",
+      "type": 2,
+      "subType": null,
+      "ipAddress": "192.168.1.198",
+      "ifType": "eth",
+      "fingerprint": {
+        "model": "Windows",
+        "vendor": "Unknown"
+      }
+    },
+{
+"routerId": "b6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 1",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+"routerMac": "04:bc:9f:21:d2:26",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "f24571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "c6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 2",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "b6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "e6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 4",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "c6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 3",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 3",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 3",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+},
+{
+"routerId": "d6321b7a-6458-4c5c-89cb-9711854b377a",
+"routerName": "nightwing's  SAT 3",
+"macAddr": "f8:85:f9:7c:22:90",
+"type": "AP",
+"status": "GOOD",
+"fsanSerialNumber": "CXNK01027614",
+"modelNumber": "GS4227",
+"isp": "Calix Networks",
+"connectedTo": {
+"routerId": "133c8b99-5284-4b10-83b5-2a1651eac577",
+"routerMac": "f8:85:f9:7c:22:90",
+"interface": "eth"
+},
+"devices": [
+{
+"deviceId": "455571-2ade-4e1b-85a4-601cd281c05b",
+"name": "Google Pixel 6a",
+"type": 0,
+"subType": 0,
+"ipAddress": "192.168.3.212",
+"ifType": "wifi",
+"fingerprint": {
+"model": "",
+"vendor": ""
+}
+}
+]
+}
   ]
 }
