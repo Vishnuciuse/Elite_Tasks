@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.mainRecyclerView)
+        recyclerView.visibility = View.INVISIBLE
         val bMImageView: ImageView = findViewById(R.id.bitmapImageView)
         val showBn: Button = findViewById(R.id.showBn)
         recyclerView.layoutManager = LinearLayoutManager(this)
@@ -262,11 +263,14 @@ class MainActivity : AppCompatActivity() {
 //            image.isScaleToFitLineWhenOverflow
 
             // Get image dimensions
+//            recyclerViewBitmap.width
+//            recyclerViewBitmap.height
             val imageWidth = image.plainWidth
             val imageHeight = image.plainHeight
+            Log.d("The image size $$$$$"," width- $imageWidth, height - $imageHeight")
 
             // Create a new document with the same dimensions as the image
-            val pageSize = Rectangle(imageWidth, imageHeight)
+            val pageSize = Rectangle( imageWidth+100f,imageHeight+100f)
             val document = Document(pageSize)
 //            val document = Document(PageSize.A4)
             val writer = PdfWriter.getInstance(document, FileOutputStream(filePath))

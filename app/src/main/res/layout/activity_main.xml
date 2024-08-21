@@ -25,6 +25,26 @@
         tools:itemCount="1"
         tools:listitem="@layout/router_layout" />
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/mainRecyclerView"
+        app:layout_constraintEnd_toEndOf="@id/mainRecyclerView"
+        app:layout_constraintStart_toStartOf="@+id/mainRecyclerView"
+        app:layout_constraintTop_toTopOf="@id/mainRecyclerView" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="check"
+            android:background="@color/blue"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
     <Button
         android:id="@+id/showBn"
         android:layout_width="wrap_content"
@@ -36,7 +56,7 @@
     <ImageView
         android:id="@+id/bitmapImageView"
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="700dp"
         android:visibility="gone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
