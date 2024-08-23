@@ -28,9 +28,6 @@
             android:name=".task6.MainActivity7"
             android:exported="false" />
         <activity
-            android:name=".task4.MainActivity5"
-            android:exported="false" />
-        <activity
             android:name=".sample2.ComposeActivity1"
             android:exported="false"
             android:label="@string/title_activity_compose1"
