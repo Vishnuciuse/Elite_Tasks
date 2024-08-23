@@ -1,0 +1,198 @@
+[
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_dynamic_tab1.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_ic_delete.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\ic_delete.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_sub_router.png.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\sub_router.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main5.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_tab.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_ic_archive.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\ic_archive.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_router_layout.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\router_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_wifi.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_wifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_round_arrow_forward.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\round_arrow_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main6.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main6.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_dash_lines.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\dash_lines.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_swipe_item.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\swipe_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_round_arrow_back.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\round_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_dash_lines_vertical.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\dash_lines_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main3.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_tab.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_main_router.png.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\main_router.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_step_two.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_step_three.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_connect_device_layout.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\connect_device_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main7.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_dynamic_tab2.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_mobile_icon.png.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\mobile_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main2.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_tab_view.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_tab_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\xml_file_paths.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main4.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_laptop_icon.png.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\laptop_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_round_background.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\round_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-debug-59:/layout_activity_main.xml.flat",
+        "source": "com.example.myapplication.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_dynamic_tab3.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_fragment_step_one.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-debug-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main.xml"
+    }
+]

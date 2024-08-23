@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_step_two.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_two.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-58:/layout/activity_main.xml",
+        "source": "com.example.myapplication.app-main-61:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_tab.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_dynamic_tab3.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main5.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main5.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main2.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_step_one.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_one.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main7.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main7.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main4.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main4.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_tab_view.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_tab_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_tab.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_tab.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_step_three.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_step_three.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_dynamic_tab2.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab2.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main3.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main3.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\swipe_item.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\swipe_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\router_layout.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\router_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_dynamic_tab1.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_dynamic_tab1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\fragment_wifi.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\fragment_wifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\connect_device_layout.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\connect_device_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-mergeDebugResources-58:\\layout\\activity_main6.xml",
+        "source": "C:\\Users\\Vishnu\\.gradle\\daemon\\8.4\\com.example.myapplication.app-main-61:\\layout\\activity_main6.xml"
+    }
+]
