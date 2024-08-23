@@ -1,15 +1,12 @@
 package com.example.myapplication.task1
 
-import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplication.data.NetWorkData
-import com.google.gson.Gson
 import android.content.Context
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.Canvas
 import android.media.MediaScannerConnection
 import android.net.Uri
+import android.os.Bundle
 import android.os.Environment
 import android.util.Log
 import android.view.View
@@ -17,12 +14,14 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.ScrollView
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.FileProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.myapplication.R
+import com.example.myapplication.data.NetWorkData
+import com.google.gson.Gson
 import com.itextpdf.io.source.ByteArrayOutputStream
-import com.itextpdf.kernel.pdf.PdfDocument
 import com.itextpdf.text.BaseColor
 import com.itextpdf.text.Chunk
 import com.itextpdf.text.Document
@@ -58,7 +57,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         val recyclerView: RecyclerView = findViewById(R.id.mainRecyclerView)
-        recyclerView.visibility = View.INVISIBLE
+//        recyclerView.visibility = View.INVISIBLE
         val bMImageView: ImageView = findViewById(R.id.bitmapImageView)
         val showBn: Button = findViewById(R.id.showBn)
         recyclerView.layoutManager = LinearLayoutManager(this)
@@ -91,8 +90,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun listOfBitmap(recyclerViewBitmap: Bitmap): List<Bitmap>  {
-         val bitmapList = mutableListOf<Bitmap>()
+    private fun listOfBitmap(recyclerViewBitmap: Bitmap): List<Bitmap> {
+        val bitmapList = mutableListOf<Bitmap>()
         // Get the dimensions of the original bitmap
         val width = recyclerViewBitmap.width
         val height = recyclerViewBitmap.height
@@ -111,7 +110,8 @@ class MainActivity : AppCompatActivity() {
     fun RecyclerView.toBitmap(): Bitmap {
         val adapter = adapter ?: return Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888)
         val itemCount = adapter.itemCount
-        val layoutManager = layoutManager ?: return Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888)
+        val layoutManager =
+            layoutManager ?: return Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888)
 
         var totalHeight = 0
         val widthMeasureSpec = View.MeasureSpec.makeMeasureSpec(width, View.MeasureSpec.EXACTLY)
@@ -135,8 +135,16 @@ class MainActivity : AppCompatActivity() {
             val viewHolder = adapter.createViewHolder(this, adapter.getItemViewType(i))
             adapter.onBindViewHolder(viewHolder, i)
             viewHolder.itemView.measure(widthMeasureSpec, View.MeasureSpec.UNSPECIFIED)
-            heightMeasureSpec = View.MeasureSpec.makeMeasureSpec(viewHolder.itemView.measuredHeight, View.MeasureSpec.EXACTLY)
-            viewHolder.itemView.layout(0, 0, viewHolder.itemView.measuredWidth, viewHolder.itemView.measuredHeight)
+            heightMeasureSpec = View.MeasureSpec.makeMeasureSpec(
+                viewHolder.itemView.measuredHeight,
+                View.MeasureSpec.EXACTLY
+            )
+            viewHolder.itemView.layout(
+                0,
+                0,
+                viewHolder.itemView.measuredWidth,
+                viewHolder.itemView.measuredHeight
+            )
             viewHolder.itemView.draw(canvas)
             canvas.translate(0f, viewHolder.itemView.height.toFloat())
             top += viewHolder.itemView.measuredHeight
@@ -148,7 +156,8 @@ class MainActivity : AppCompatActivity() {
     fun RecyclerView.toBitmaps(): List<Bitmap> {
         val adapter = adapter ?: return listOf(Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888))
         val itemCount = adapter.itemCount
-        val layoutManager = layoutManager ?: return listOf(Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888))
+        val layoutManager =
+            layoutManager ?: return listOf(Bitmap.createBitmap(1, 1, Bitmap.Config.ARGB_8888))
 
         val bitmaps = mutableListOf<Bitmap>()
         val widthMeasureSpec = View.MeasureSpec.makeMeasureSpec(width, View.MeasureSpec.EXACTLY)
@@ -177,14 +186,28 @@ class MainActivity : AppCompatActivity() {
             val viewHolder = adapter.createViewHolder(this, adapter.getItemViewType(i))
             adapter.onBindViewHolder(viewHolder, i)
             viewHolder.itemView.measure(widthMeasureSpec, View.MeasureSpec.UNSPECIFIED)
-            heightMeasureSpec = View.MeasureSpec.makeMeasureSpec(viewHolder.itemView.measuredHeight, View.MeasureSpec.EXACTLY)
-            viewHolder.itemView.layout(0, 0, viewHolder.itemView.measuredWidth, viewHolder.itemView.measuredHeight)
+            heightMeasureSpec = View.MeasureSpec.makeMeasureSpec(
+                viewHolder.itemView.measuredHeight,
+                View.MeasureSpec.EXACTLY
+            )
+            viewHolder.itemView.layout(
+                0,
+                0,
+                viewHolder.itemView.measuredWidth,
+                viewHolder.itemView.measuredHeight
+            )
             viewHolder.itemView.draw(canvas)
             canvas.translate(0f, viewHolder.itemView.height.toFloat())
             top += viewHolder.itemView.measuredHeight
 
             // Extract the bitmap of the individual item
-            val itemBitmap = Bitmap.createBitmap(bitmap, 0, top - viewHolder.itemView.measuredHeight, measuredWidth, viewHolder.itemView.measuredHeight)
+            val itemBitmap = Bitmap.createBitmap(
+                bitmap,
+                0,
+                top - viewHolder.itemView.measuredHeight,
+                measuredWidth,
+                viewHolder.itemView.measuredHeight
+            )
             bitmaps.add(itemBitmap)
         }
 
@@ -203,7 +226,7 @@ class MainActivity : AppCompatActivity() {
         return bitmap
     }
 
-    fun saveBitmapToInternalStorage(context: Context, bitmap: Bitmap,): String {
+    fun saveBitmapToInternalStorage(context: Context, bitmap: Bitmap): String {
         val fileName = "my_image"
         val dir = context.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS)
         if (dir != null && !dir.exists()) {
@@ -231,7 +254,8 @@ class MainActivity : AppCompatActivity() {
     fun openImageFile(context: Context, filePath: String) {
         Log.d("check", "check the image file path $filePath")
         val file = File(filePath)
-        val uri: Uri = FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", file)
+        val uri: Uri =
+            FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", file)
         val intent = Intent(Intent.ACTION_VIEW)
         intent.setDataAndType(uri, "image/*")
         intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
@@ -267,10 +291,10 @@ class MainActivity : AppCompatActivity() {
 //            recyclerViewBitmap.height
             val imageWidth = image.plainWidth
             val imageHeight = image.plainHeight
-            Log.d("The image size $$$$$"," width- $imageWidth, height - $imageHeight")
+            Log.d("The image size $$$$$", " width- $imageWidth, height - $imageHeight")
 
             // Create a new document with the same dimensions as the image
-            val pageSize = Rectangle( imageWidth+100f,imageHeight+100f)
+            val pageSize = Rectangle(imageWidth + 100f, imageHeight + 100f)
             val document = Document(pageSize)
 //            val document = Document(PageSize.A4)
             val writer = PdfWriter.getInstance(document, FileOutputStream(filePath))
@@ -304,7 +328,7 @@ class MainActivity : AppCompatActivity() {
 //            descriptionCell.borderWidth = 1f
 //            table.addCell(descriptionCell)
 
-             // without convert to image , bitmap directly set to pdf
+            // without convert to image , bitmap directly set to pdf
 //            val stream = ByteArrayOutputStream()
 //            recyclerViewBitmap.compress(Bitmap.CompressFormat.PNG, 100, stream)
 //            val byteArray = stream.toByteArray()
@@ -324,7 +348,12 @@ class MainActivity : AppCompatActivity() {
             document.add(table)
             document.close()
 
-            MediaScannerConnection.scanFile(this@MainActivity, arrayOf(filePath), arrayOf("application/pdf"), null)
+            MediaScannerConnection.scanFile(
+                this@MainActivity,
+                arrayOf(filePath),
+                arrayOf("application/pdf"),
+                null
+            )
 
             withContext(Dispatchers.Main) {
                 Toast.makeText(this@MainActivity, "PDF created at: $filePath", Toast.LENGTH_LONG)
@@ -333,7 +362,7 @@ class MainActivity : AppCompatActivity() {
             openPdf(filePath)
 
         }
-        }
+    }
 
     private fun storeToPDF(recyclerViewBitmap: List<Bitmap>) {
         CoroutineScope(Dispatchers.IO).launch {
@@ -379,13 +408,15 @@ class MainActivity : AppCompatActivity() {
 //            image.scaleToFit(500f, 500f) // Scale the image to fit the page
 //            document.add(image)
 
-            for (element in recyclerViewBitmap){
+            for (element in recyclerViewBitmap) {
                 val stream = ByteArrayOutputStream()
                 element.compress(Bitmap.CompressFormat.PNG, 100, stream)
                 val byteArray = stream.toByteArray()
                 val image = Image.getInstance(byteArray)
-                val pageWidth = document.pageSize.width - document.leftMargin() - document.rightMargin()
-                val pageHeight = document.pageSize.height - document.topMargin() - document.bottomMargin()
+                val pageWidth =
+                    document.pageSize.width - document.leftMargin() - document.rightMargin()
+                val pageHeight =
+                    document.pageSize.height - document.topMargin() - document.bottomMargin()
 
                 if (image.width > pageWidth || image.height > pageHeight) {
                     image.scaleToFit(pageWidth, pageHeight)
@@ -398,7 +429,12 @@ class MainActivity : AppCompatActivity() {
             document.add(table)
             document.close()
 
-            MediaScannerConnection.scanFile(this@MainActivity, arrayOf(filePath), arrayOf("application/pdf"), null)
+            MediaScannerConnection.scanFile(
+                this@MainActivity,
+                arrayOf(filePath),
+                arrayOf("application/pdf"),
+                null
+            )
 
             withContext(Dispatchers.Main) {
                 Toast.makeText(this@MainActivity, "PDF created at: $filePath", Toast.LENGTH_LONG)
